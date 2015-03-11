@@ -18,6 +18,7 @@ class Led():
 		self.green = [0, 0, 00]
 		
 	def __str__(self):  
+		
 		""" Returns the value of all the values in the Led-class update_led writes out each of the LED-status and puts it together in a string
 		{2:02d} says that the last entry in the string should always have two digits, for example 00, 11, 01 or 10.
 		"""
